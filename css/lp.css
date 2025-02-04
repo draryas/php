@@ -1,0 +1,107 @@
+ @media (min-width:1200px)
+{
+    .blog-content2
+    {
+        height: 250px;
+    }
+}
+.locations
+{
+    padding: 35px 0;
+}
+.enq-blk {
+    background: #14469f;
+    height: 100%;
+}
+.enq-blk h3
+{
+    font-size: 25px;
+    margin: 10px 0 20px;
+}
+.enquiry-form
+{
+    padding: 35px;
+}
+.enquiry-form form {
+    background: #fec109;
+    padding: 20px;
+}
+.enquiry-form form input, .enquiry-form form select, .enquiry-form form input[type="email"] {
+    padding: 8px 8px;
+    color: #000 !important;
+    margin: 2px 0;
+    height: auto;
+    border-radius: 2px;
+    font-size: 13px !important;
+    width: 100%;
+}
+.enquiry-form select
+{
+    height: 35px !important;
+}
+.enquiry-form select option
+{
+    color: #3a3838 !important;
+}
+.enquiry-form ::placeholder{
+    color: #3a3838 !important;
+  }
+  .enquiry-form button {
+    background: #fbe18a;
+    height: 40px;
+    width: 100% !important;
+    border: none;
+}
+.enquiry-form button:hover
+{
+    background: #fec10a;
+    color:#000;
+}
+@media (max-width:768px)
+{
+    .enquiry-form .contact-form {
+        padding: 20px 25px !important;
+    }
+}
+  @media only screen and (min-width:1200px) and (max-width:1400px)
+  {
+    .enquiry-form form input, .enquiry-form form select, .enquiry-form form input[type="email"] {
+        border-radius: 0;
+        padding: 5px;
+    }
+    .enquiry-form form input
+    {
+        height: 25px;
+    }
+    .enquiry-form form {
+        background: #578b02;
+        padding: 10px 15px;
+    }
+    .enquiry-form {
+        padding: 15px;
+    }
+    .pbmit-btn {
+        padding: 10px;
+        margin: 5px 0;
+    }
+    .enq-blk h3 {
+        font-size: 21px;
+        margin: 0 0 20px;
+    }
+  }
+  @media only screen and (min-width:1400px) and (max-width:1600px)
+  {
+    .enquiry-form form input, .enquiry-form form select, .enquiry-form form input[type="email"] {
+        border-radius: 0;
+        padding: 8px;
+        font-size: 12px;
+    }
+    .enq-blk h3 {
+        font-size: 21px;
+        margin: 0 0 20px;
+    }
+    .enquiry-form {
+        padding: 15px;
+
+    }
+  }
