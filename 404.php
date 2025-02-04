@@ -33,7 +33,7 @@
                     <div class="about-content s-about-content  wow fadeInRight   animated" data-animation="fadeInRight" data-delay=".4s" style="visibility: visible; animation-name: fadeInRight;">
                         <div class="about-title second-title pb-25">
                             <h5>404 Error:</h5>
-                            <h2>404 Error: Requested file was not found</h2>
+                            <h2>404 Error: Requested file was not found !!!</h2>
                         </div>
                     </div>
                 </div>
