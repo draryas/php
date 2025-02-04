@@ -1,0 +1,28 @@
+
+RewriteEngine On
+
+<IfModule mod_rewrite.c>
+	RewriteCond %{HTTPS} off
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+	
+	RewriteCond %{HTTP_HOST} !^www\. [NC]
+	RewriteRule (.*) https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+Redirect /tooth-extraction /tooth-extraction-procedure-in-as-rao-nagar
+Redirect /tooth-filling /tooth-filling-cost-in-as-rao-nagar
+Redirect /tooth-scaling /tooth-scaling-cost-in-banjara-hills
+Redirect /dental-implants /best-dental-implants-clinic-in-banjara-hills
+Redirect /orthodontic-treatments /best-orthodontist-in-banjara-hills
+Redirect /laser-treatments-precision /laser-dental-treatment-in-ecil
+Redirect /root-canal-treatments /best-root-canal-treatment-in-as-rao-nagar
+Redirect /tooth-caps /best-zirconia-crowns-in-as-rao-nagar
+Redirect /aesthetic-restorations /composite-fillings-in-banjara-hills
+Redirect /dr-hemanth-kumar /best-endodontist-in-hyderabad
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^blog-detail.php/([A-Za-z0-9-]+)/?$    blog-detail.php?category_name=$1    [NC,L]
+ErrorDocument 404 https://www.draryasdental.com/404
+
+
